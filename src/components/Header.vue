@@ -1,6 +1,6 @@
 <template>
 	<div class="header">
-	    <div class="header-center">
+	    <div class="header-center inner">
 			<div class="boss-menu">
 			    <span class="boss-logo"></span>
 				<router-link v-bind:to="nav.to" v-for="(nav,index) in menuList"  v-text="nav.name">  
@@ -43,9 +43,10 @@
 		background: #fff;
 		box-shadow: 0 1px 8px rgba(0,0,0,.06);
 	}
+	.router-link-active{
+		color: #5dd5c8;
+	}
 	.header-center{
-		width:1170px;
-		margin:0 auto;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;

@@ -1,0 +1,105 @@
+@F8F9FB:#F8F9FB;
+#main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.font(@px:14px){
+font-size:@px;
+}
+.paddT(@px:20px){
+   padding-top:@px;
+}
+.marT(@px:20px){
+   margin-top:@px;
+}
+.inline{
+	display: inline-block;
+}
+.banner{
+    height: 398px;
+    background: url(https://www.zhipin.com/v2/bosszhipin_home/images/home/v2/list-banner.jpg) center 0 no-repeat #3d4f5e;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.banner h1{
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color:#fff;
+    .paddT(108px);
+}
+.btns{
+    .inline();
+    .marT(50px);
+    .font(20px);
+    background: #4ad4cc;
+    width: 188px; 
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    border-radius: 24px;
+    font-weight: 300;
+}
+.banner-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    .marT(-68px);
+    padding: 40px 10px; 
+    position: relative;
+    z-index: 1;
+}
+.banner-main>div{
+    flex:1;
+}
+.banner-main h2{
+    .inline();
+    font-size: 17px;
+    height: 17px;
+    line-height: 17px;
+    border-left: 3px #59CAC2 solid;
+    padding-left: 10px;
+    font-weight: 400;
+    width: 284px;
+    margin: 0 auto;
+}
+.banner-main h2 a{
+    .right();
+    .inline();
+    width: 47px;
+    height: 18px;
+    line-height: 16px;
+    border: 1px #BEBEBE solid;
+    border-radius: 10px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: arial,Verdana;
+    text-align: center;
+}
+.banner-main h2 a:hover{
+    color: #fff;
+    background-color: #4ad4cc;
+    border:1px solid #4ad4cc;
+}
+.img-wrap{
+    .paddT(40px);
+}
+.img-wrap img{
+    width: 284px;
+    height: 156px;
+    overflow: hidden;
+    -webkit-transition: all ease-out .3s;
+    transition: all ease-out .3s;
+}
+.img-wrap img:hover{
+    transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05); 
+}

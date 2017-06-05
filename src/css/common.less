@@ -1,13 +1,54 @@
 @block:#414a60;
 @blue:#5dd5c8;
-html,body,p,div{
+html,body,p,div,dd,dt,ul,li,h1,h2,h3,h4,h5,h6{
 	margin:0;
+	padding:0;
 	font-size:14px;
+}
+ul,li{
+	list-style-type:none;
+}
+body{
+	background: #F2F2F5;
+	color:@block;
+}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0
+ }
+.clearfix{zoom:1}
+.red{
+	color: #fc703e;
+}
+.over-hidden{
+	overflow:hidden;
+}
+.paddT20{
+	padding-top:20px;
+}
+.text-left{
+	text-align:left;
 }
 a{
 	text-decoration:none;
 	color:@block;
 }
 .inline{
-	display: inine-block;
+	display: inline-block;
+}
+.inner{
+	width:1170px;
+	margin:0 auto;
+}
+.icon-arrow-down,.icon-arrow-right,.search-box  .btn-search{
+    .inline();
+    background-image: url(http://www.zhipin.com/v2/web/geek/images/icons.png);
+    background-repeat: no-repeat;
+}
+.icon-arrow-down,.icon-arrow-right{
+	width: 16px;
+    height: 16px;
 }

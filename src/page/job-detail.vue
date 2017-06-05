@@ -4,18 +4,19 @@
 	</div>
 </template>
 <script>
-	import bossHeader from './../components/Header'
+    import bossHeader from './../components/Header'
 	export default{
 		data:function(){
 			return{
-				baseUrl:'./../../static/data/'
+				baseUrl:'./../../static/data/',
 			}
 		},
 		components:{bossHeader},
 		mounted:function(){
+			
 		},
 		methods:{
-
+           
 		}
 	}
 </script>

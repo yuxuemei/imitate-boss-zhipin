@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Home from '@/page/home'
 import Job from '@/page/job'
+import JobDetail from '@/page/job-detail'
 import App from '@/page/app'
 import News from '@/page/news'
 
@@ -22,6 +23,10 @@ export default new Router({
       path: '/job',
       name: '求职',
       component: Job
+    },{
+      path: '/job-detail',
+      name: '求职',
+      component: JobDetail
     },{
       path: '/app',
       name: 'APP',

@@ -1,0 +1,191 @@
+[{
+    name: "技术",
+    child: [
+      {
+        name: "后端开发",
+        child: [
+          {
+            name: "java"
+          },
+          {
+            name: "c++"
+          },
+          {
+            name: "PHP"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          },{
+            name: "java"
+          },
+          {
+            name: "c++"
+          },
+          {
+            name: "PHP"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          },{
+            name: "java"
+          },
+          {
+            name: "c++"
+          },
+          {
+            name: "PHP"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          }
+        ]
+      },{
+        name: "移动开发",
+        child: [
+          {
+            name: "WEB APP"
+          },
+          {
+            name: "Android"
+          },
+          {
+            name: "IOS"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          },{
+            name: "java"
+          },
+          {
+            name: "c++"
+          },
+          {
+            name: "PHP"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          },{
+            name: "java"
+          },
+          {
+            name: "c++"
+          },
+          {
+            name: "PHP"
+          },
+          {
+            name: "VB"
+          },
+          {
+            name: ".NET"
+          }
+        ]
+      }
+    ],
+    hotName: ['java','web前端','数据挖掘']
+  },
+  {
+    name: "产品",
+    child: [
+      {
+        name: "产品经理",
+        child: [
+          {
+            name: "网页产品经理"
+          },
+          {
+            name: "移动产品经理"
+          },
+          {
+            name: "产品经理助理"
+          },
+          {
+            name: "产品专员"
+          },
+          {
+            name: "游侠策划"
+          }
+        ]
+      },
+      {
+        name: "产品设计师",
+        child: [
+          {
+            name: "网页设计师"
+          },
+          {
+            name: "无线产品设计师"
+          }
+        ]
+      }
+    ],
+    hotName: ['产品经理','产品总监','产品经理助理']
+},
+  {
+    name: "传媒",
+    child: [
+      {
+        name: "公关媒介",
+        child: [
+          {
+            name: "网页产品经理"
+          },
+          {
+            name: "移动产品经理"
+          },
+          {
+            name: "产品经理助理"
+          },
+          {
+            name: "产品专员"
+          },
+          {
+            name: "游侠策划"
+          },{
+            name: "产品经理助理"
+          },
+          {
+            name: "产品专员"
+          },
+          {
+            name: "游侠策划"
+          },{
+            name: "产品经理助理"
+          },
+          {
+            name: "产品专员"
+          },
+          {
+            name: "游侠策划"
+          }
+        ]
+      },
+      {
+        name: "采编/写作",
+        child: [
+          {
+            name: "网页设计师"
+          },
+          {
+            name: "无线产品设计师"
+          }
+        ]
+      }
+    ],
+    hotName: ['文案','广告创意','编辑','品牌公关']
+}]
